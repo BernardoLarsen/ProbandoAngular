@@ -35,7 +35,6 @@ export class CrearGeneroComponent implements OnInit{
     if(campo.hasError('primeraLetraMayuscula')){
       return campo.getError('primeraLetraMayuscula').mensaje;
     }
-    
     return '';
   }
 }
