@@ -33,7 +33,7 @@ export class CrearGeneroComponent implements OnInit{
       return 'La longitud minima es de 3 caracteres'
     }
     if(campo.hasError('primeraLetraMayuscula')){
-      return campo.getError('primeraLetraMayuscula').mensaje;
+      return campo.getError('primeraLetraMayúscula').mensaje;
     }
     return '';
   }
